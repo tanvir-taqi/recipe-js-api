@@ -48,3 +48,8 @@ input:hover{
     text-align: center;
    
 }
+.recipe-btn{
+    color: antiquewhite;
+    border: 2px solid antiquewhite;
+    border-radius: 15px;
+}

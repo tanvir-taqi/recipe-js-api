@@ -15,7 +15,7 @@ const dispalyFood = (meals) => {
   <div class="card-body">
     <h5 class="card-title">${food.strMeal}</h5>
     <p class="card-text">${food.strCategory}</p>
-    <button class="btn" onclick="loadRecipe(${food.idMeal})">Recipe</button>
+    <button class="btn recipe-btn" onclick="loadRecipe(${food.idMeal})">Recipe</button>
   </div>
   </div>
         `
@@ -39,7 +39,7 @@ const displayRecipe = (meals)=>{
     const recipeDiv = document.createElement('div')
     recipeDiv.innerHTML = `
     <h2 class="text-center">${recipename}</h2>
-    <p class="text-center">${recipe}</p>
+    <p class="text-center ">${recipe}</p>
     `
     detailsContainer.appendChild(recipeDiv)
 }
