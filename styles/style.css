@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(15, 11, 11);
+    color: bisque;
+}
+
+.head-title{
+    font-size: 2.4rem;
+    
+}
+header{
+    margin-top: 50px;
+    padding-top: 100px;
+    letter-spacing: 1px;
+    
+}
+.catagory-btns{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+input{
+    background: rgba(0, 0, 0, 0.555);
+    color: antiquewhite;
+    width: 120px;
+    border: 1px solid transparent;
+    padding: 5px 20px;
+}
+input:hover{
+    border: 1px solid white;
+}
+#recipe-details{
+    margin-top: 50px;
+    color: white;
+}
+#recipe-details h2{
+    margin: 20px 0;
+    color: antiquewhite;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.555);
+}
+
+.food-card{
+    background: rgba(0, 0, 0, 0.555);
+    color: white;
+    text-align: center;
+   
+}
