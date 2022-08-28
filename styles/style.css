@@ -33,6 +33,7 @@ input:hover{
 #recipe-details{
     margin-top: 50px;
     color: white;
+    margin-bottom: 100px;
 }
 #recipe-details h2{
     margin: 20px 0;
